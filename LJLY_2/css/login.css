@@ -1,0 +1,73 @@
+.content{width:1205px;border: 1px solid #ccc;height:400px;margin:0 auto}
+.content h6{height:35px;border-bottom: 2px solid #000;line-height: 35px;padding-left:18px;font-weight: bold;}
+.cont_reg{width:600px;float: left;padding-top:20px;}
+.right{width:600px;float: left;}
+.cont_reg  form {margin-left:10px;overflow: hidden;}
+.cont_reg  form ul{
+	width:320px;
+	height:40px;
+	border-bottom: 1px solid #ccc;
+}
+.cont_reg  form ul li{
+	margin-left:10px;
+	height:40px;
+	width:100px;
+	line-height: 41px;
+	font-size: 17px;
+	text-align: center;
+	border:1px solid #ccc;
+	border-bottom: 0;
+	color:#999;
+	background: #fff;
+}
+.cont_reg  form >div{
+	margin-top:10px;
+	height:54px;
+	width:320px;
+	border:1px solid #ccc;
+	padding-left:10px;
+}
+form input{width:270px;height:40px;border:0;}
+.userN div{
+	width:100%;height:100%;
+	line-height: 38px;
+}
+
+.psw div{
+	width:100%;height:100%;
+	line-height: 38px;
+	
+}
+.code div:nth-child(1){
+	width:55%;height:100%;
+	line-height: 38px;
+	float: left;
+	margin-left:-10px;
+	border: 1px solid #ccc;padding-left:10px;
+}
+form .code{border: 0 !important;}
+.code div:nth-child(2){
+	width:40%;height:100%;
+	line-height: 38px;
+	float: left;
+	padding-top:10px;
+	margin-left:20px;
+}
+.code div:nth-child(1) input{width:120px;}
+.code div img{width:100px;height:30px;margin-right: 20px;}
+form> p input{width:100px;margin-top:10px;background: #000;color: #fff;font-size: 16px;border:0;border-radius: 5px;}
+form> p a{margin-left:10px;}
+form i{font-size: 25px !important;color: #ccc;display: inline-block;margin-top:4px;}
+
+.other{padding-left:10px;margin-top:10px;line-height: 30px;height:30px;}
+.other i{font-size: 30px !important;}
+.other a:nth-child(2)  i{color: limegreen;margin-left:10px;}
+.other a:nth-child(1)  i{color: deepskyblue;}
+.right{padding-top:100px;padding-left:30px;}
+.right p{font-size: 16px;color: #666;}
+.right a{display: block;width:120px;height:40px;line-height: 40px;background: #000;color: #fff;text-align: center;font-size: 15px;border-radius: 5px;margin-top:10px;}
+
+.layui-layer-dialog .layui-layer-content .layui-layer-ico{
+	background: url(../images/icon_layer.png) no-repeat center center;
+	background-size: 35px 35px;
+}

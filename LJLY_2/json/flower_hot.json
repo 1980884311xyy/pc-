@@ -1,0 +1,9 @@
+[
+	{"id":"48","price":"￥228","title":"以爱之名","src":"../images/001_f_hot.jpg","detail":"../images/001hot_detail.jpg","small":["../images/001small_hot.jpg"],"large":["../images/001large_hot.jpg"],"sale":"4000"},
+	{"id":"49","price":"￥298","title":"回报您的爱","src":"../images/002_f_hot.jpg","detail":"../images/002hot_detail.jpg","small":["../images/002small_hot.jpg"],"large":["../images/002large_hot.jpg"],"sale":"4780"},
+	{"id":"50","price":"￥298","title":"最美遇见","src":"../images/003_f_hot.jpg","detail":"../images/003hot_detail.jpg","small":["../images/003small_hot.jpg"],"large":["../images/003large_hot.jpg"],"sale":"6784"},
+	{"id":"51","price":"￥228","title":"怦然心动","src":"../images/004_f_hot.jpg","detail":"../images/004hot_detail.jpg","small":["../images/004small_hot.jpg"],"large":["../images/004large_hot.jpg"],"sale":"2904"},
+	{"id":"52","price":"￥298","title":"向日葵花束","src":"../images/005_f_hot.jpg","detail":"../images/005hot_detail.jpg","small":["../images/005small_hot.jpg"],"large":["../images/005large_hot.jpg"],"sale":"6432"},
+	{"id":"53","price":"￥338","title":"喜欢你","src":"../images/006_f_hot.jpg","detail":"../images/006hot_detail.jpg","small":["../images/006small_hot.jpg"],"large":["../images/006large_hot.jpg"],"sale":"1001"},
+	{"id":"54","price":"￥198","title":"白百合礼盒","src":"../images/007_f_hot.jpg","detail":"../images/006hot_detail.jpg","small":["../images/006small_hot.jpg"],"large":["../images/006large_hot.jpg"],"sale":"1001"}
+]

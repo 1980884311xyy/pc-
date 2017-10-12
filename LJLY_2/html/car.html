@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="stylesheet" href="../css/base.css" />
+		<link rel="stylesheet" href="../css/car.css" />
+		<link rel="stylesheet" href="../lib/layer/theme/default/layer.css" />
+		<script src="../lib/require.js" data-main="../js/car.js"></script>
+	</head>
+
+	<body>
+		<!--头部-->
+		<div class="head">
+			<header>
+				<p id="status"><a href="html/login.html">登录</a>|<a href="html/register.html">免费注册</a></p>
+				<ul>
+					<li><a href="../index.html">返回首页</a></li>
+					<li><a href="javascript:void(0)">加入收藏</a></li>
+					<li><a href="javascript:void(0)">在线留言</a></li>
+					<li><a href="javascript:void(0)">企业位置</a></li>
+					<li><a href="javascript:void(0)">手机站</a></li>
+				</ul>
+			</header>
+		</div>
+		<!--主体-->
+		<div class="mainbody">
+			<div class="sop">
+				<ul>
+					<li>1、我的购物车</li>
+					<li>2、填写核对订单信息</li>
+					<li>3、成功提交信息</li>
+				</ul>
+			</div>
+			<div class="carlist">
+				<div class="top">全部商品</div>
+				<div class="tab_car">
+					<table class="tit_inp">
+						<tr>
+							<td width="12%"><input type="checkbox" id="top_allselectBtn" checked="checked" /><span>全选</span></td>
+							<td width="28%">商品</td>
+							<td width="12%" align="center">单价（元）</td>
+							<td width="12%" align="center">数量</td>
+							<td width="12%" align="center">小计（元）</td>
+							<td width="12%" align="center">操作</td>
+						</tr>
+					</table>
+					<table class="car_body">
+						<tbody>
+							<!--<tr class="tab_con">
+								<td class="img_car" width="12%">
+									<input type="checkbox" class="select_car" checked="checked" />
+									<span><img src="../images/0010_f_shoop.jpg" width="78" height="78" /></span>
+								</td>
+								<td class="title_car" width="38%">
+									<a href="javascript:void(0)">爱的传说</a>
+								</td>
+								<td class="price_car" width="13%">￥<b>388</b></td>
+								<td class="count_car" width="15%">
+									<div class="number">
+										<a href="javascript:void(0)" class="reduce_car">-</a>
+										<input type="text" class="number_txt" value="2"/>
+										<a href="javascript:void(0)" class="add_car">+</a>
+									</div>
+								</td>
+								<td class="total_car" width="11%">
+									￥<b>776</b>
+								</td>
+								<td class="dele_car" width="12%">
+									<a href="javascript:void(0)">删除</a>
+									<a href="javascript:void(0)">加入我的收藏</a>
+								</td>
+							</tr>-->
+						</tbody>
+					</table>
+					<div class="go_mony">
+						<div class="left">
+							<label>
+								<input type="checkbox" class="all_select" checked="checked" />
+								全选
+							</label>
+							<a href="javascript:void(0)" id="dele_product">删除选中的商品</a>
+							<a href="javascript:void(0)">加入我的收藏</a>
+						</div>
+						<div class="right">
+							<p>已选则<span id="amountSum">0</span>商品</p>
+							<strong>总价（不含运费）：￥<b id="total_price">0.00</b></strong>
+							<a href="javascript:void(0)" id="go_money">去结算</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="foot"></div>
+		<!--低部 -->
+		<!--分享-->
+		<div class="base"></div>
+	</body>
+
+</html>

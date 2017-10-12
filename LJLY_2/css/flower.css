@@ -1,0 +1,39 @@
+.content_f {width:1205px;margin: 0 auto;}
+.content_f .top{height: 60px;font-size: 14px;line-height: 60px;}
+.content_f .hot{height:216px;width:100%;border-bottom: 1px solid #ccc;}
+.content_f .hot dl{width:171px;heigth:100%;float: left;}
+.content_f .hot dl dt{width:100%;padding-left:8px;}
+.content_f .hot dl dd{text-align: center;}
+.content_f .hot dl dd p:nth-child(1){line-height: 30px;color: red;font-size: 13px;}
+.content_f .hot dl dd p:nth-child(2){font-size: 13px;}
+
+/*shoop*/
+.content_f .shoop{width:100%;margin-top:20px;overflow: hidden;}
+.content_f .shoop dl{width:225px;height:420px;border:1px solid #f3eded;float: left;padding:10px;margin-right: 16px;margin-bottom: 10px;}
+.content_f .shoop dl dt{width:200px;height:200px;position: relative;overflow: hidden;}
+.content_f .shoop dl dt .collection{width:60px;height:30px;background: rgba(0,0,0,0.5) url(../images/xinxin.png) no-repeat left center;color: white;text-align: center;line-height: 30px;position: absolute;
+right:-60px;bottom: 20px;border-radius: 5px;padding-left:15px;transition: all 0.35s ease;}
+.content_f .shoop dl dt:hover .collection {right: 0;}
+.content_f .shoop dl dt img{width:100%;height:100%;}
+.content_f .shoop dl dd{margin-top:25px;padding-left:2px;}
+.content_f .shoop dl dd ul{width:200px;height:45px;}
+.content_f .shoop dl dd ul li{width:45px;height:45px;float: left;margin-right: 5px;}
+.content_f .shoop dl dd ul li img{width:100%;height:100%;}
+.content_f .shoop dl dd ul .active{border:1px solid red;}
+.content_f .shoop dl dd p{line-height: 40px;}
+.content_f .shoop dl dd p:nth-child(2){color: #d50000;font-size: 15px;font-family: "微软雅黑";font-weight: bold;}
+.content_f .shoop dl dd p:nth-child(2) span{margin-right: 5px;}
+.content_f .shoop dl dd p:nth-child(2) a{display: inline-block;width:30px;height:30px;background: url(../images/car.png) no-repeat;background-position: 0px 9px;}
+.content_f .shoop dl dd p:nth-child(3) a{font-size: 14px;color: #555;font-family: "微软雅黑";}
+.content_f .shoop dl dd p:nth-child(3){line-height: 30px;}
+.content_f .shoop dl dd p:nth-child(4){line-height: 60px;}
+.content_f .shoop dl dd p:nth-child(4) span{color: #D50000;padding-left:5px;font-weight: bold;}
+
+/*分页*/
+.content_f .pageC{width:100%;height:30px;text-align: right;}
+.content_f .pageC a{display: inline-block;border:1px solid #bbb;margin:0 5px;padding:5px 10px;color: #777;transition: all 0.5s ease}
+.content_f .pageC a:hover{background: #000;color: white;}
+.content_f .pageC .active{
+	background: #000;color: white;
+	display: inline-block;border:1px solid #bbb;margin:0 5px;padding:5px 10px;
+}

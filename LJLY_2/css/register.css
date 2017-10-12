@@ -1,0 +1,53 @@
+.content .cont_reg{width:1205px;border: 1px solid #ccc;height:350px;margin:0 auto}
+.cont_reg h6{height:35px;border-bottom: 2px solid #000;line-height: 35px;padding-left:18px;font-weight: bold;}
+.cont_reg  form {margin-left:60px;overflow: hidden;}
+.cont_reg  form p{height:30px;line-height: 30px;font-size: 14px;color: #111;font-family: "微软雅黑";font-weight: bold;}
+.userN,.psw,.pswS,.code{width:600px;height:40px;position:relative;line-height: 40px;margin-top:15px;}
+.userN input,.psw input,.pswS input,.code input{height:25px;width:200px;}
+.userN>div{float: left;}
+.psw>div{float: left;}
+.pswS>div{float: left;}
+.code>div{float: left;}
+.userN div:nth-child(1){width:100px;}
+.psw div:nth-child(1){width:100px;}
+.pswS div:nth-child(1){width:100px;}
+.code div:nth-child(1){width:100px;}
+.userN div:nth-child(1) i{color: red;margin-left:10px;}
+.psw div:nth-child(1) i{color: red;margin-left:10px;}
+.pswS div:nth-child(1) i{color: red;margin-left:10px;}
+.userN div:nth-child(3){margin-left:10px;}
+.psw div:nth-child(3){margin-left:10px;}
+.pswS div:nth-child(3){margin-left:10px;}
+.code div:nth-child(3){margin-left:10px;}
+.code div:nth-child(2){width:100px;height:100%;padding-top:8px;}
+.code div:nth-child(2) a{width:100%;height:25px;display: block;}
+.code div:nth-child(2) a img{width:100%;height: 100%;}
+.code div:nth-child(3) input{width:80px;}
+.cont_reg form>input{border:0;width:60px;height:30px;background: black;
+border-radius: 5px;color: white;margin-left:100px;display: inherit;margin-bottom: 20px;}
+#info_yzm{height:25px;line-height: 25px;margin-left:110px;display: none;}
+
+.userN .tishi{position: absolute;width:150px;height:45px;background: red;display: none;
+border:2px solid white;box-shadow: 0px 3px 3px 1px #666;border-radius: 10px;right: 197px;top:-44px;}
+.userN .tishi .sj{position: absolute;border:2px solid white;box-shadow: 0px 3px 3px 1px #666;left:15px;top:30px;width:20px;height:20px;background: red;transform: rotate(45deg);}
+.userN .tishi .top{position:absolute;padding-left:10px;font-size: 14px;color: white;top:0;left:0;width:146px;height:42px;z-index:99;background: red;border-radius: 10px;}
+
+.psw .tishi{position: absolute;width:150px;height:45px;background: red;display: none;
+border:2px solid white;box-shadow: 0px 3px 3px 1px #666;border-radius: 10px;right: 197px;top:-44px;}
+.psw .tishi .sj{position: absolute;border:2px solid white;box-shadow: 0px 3px 3px 1px #666;left:15px;top:30px;width:20px;height:20px;background: red;transform: rotate(45deg);}
+.psw .tishi .top{position:absolute;top:0;left:0;width:146px;height:42px;z-index:99;background: red;border-radius: 10px;padding-left:10px;font-size: 14px;color: white;}
+
+.pswS .tishi{position: absolute;width:150px;height:45px;background: red;display: none;
+border:2px solid white;box-shadow: 0px 3px 3px 1px #666;border-radius: 10px;right: 197px;top:-44px;}
+.pswS .tishi .sj{position: absolute;border:2px solid white;box-shadow: 0px 3px 3px 1px #666;left:15px;top:30px;width:20px;height:20px;background: red;transform: rotate(45deg);}
+.pswS .tishi .top{position:absolute;top:0;padding-left:10px;font-size: 14px;color: white;left:0;width:146px;height:42px;z-index:99;background: red;border-radius: 10px;}
+
+
+.main{width:1205px;height: 200px;margin: 0 auto;border: 1px solid #ccc;}
+.main .cont1_reg{height:100%;margin-left:30px;float: left;padding-top:60px;}
+.main .icon{float: left;margin-left:300px;margin-top:60px;} 
+.main .cont1_reg h3{font-size: 30px;font-family: "微软雅黑";color: #111;}
+.main .cont1_reg h3 p{margin-top:30px;}
+.main .cont1_reg h3 p a{padding:0 10px;font-size: 14px;color:#666;}
+.main .cont1_reg h3 p a:hover{color: #000;}
+

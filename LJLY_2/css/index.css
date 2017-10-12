@@ -1,0 +1,74 @@
+/*轮播图*/
+.content{width:100%;overflow: hidden;}
+.content .slide{height:528px;margin: 0 auto;overflow:hidden;background: url(../images/sliBg.jpg) no-repeat;background-size:100% 100%;}
+.content .slide .sli_cont{width:1205px;height:465px;margin: 30px auto;}
+.sli_cont .navgator{width:250px;height:100%;background: #ffffff;float: left;}
+.sli_cont .swiper-container{width:942px !important;height:100%;float: left;margin-left:12px !important;position:relative ;overflow: hidden;}
+.sli_cont .navgator>div:nth-child(1){width:100%;height:155px;border-bottom: 1px dashed #ccc;}
+.sli_cont .navgator>div:nth-child(2){width:100%;height:95px;border-bottom: 1px dashed #ccc;}
+.sli_cont .navgator>div:nth-child(3){width:100%;height:93px;border-bottom: 1px dashed #ccc;}
+.sli_cont .navgator>div:nth-child(4){width:100%;height:123px;}
+
+.sli_cont .navgator>div .title{padding-left:37px;margin-top:10px;font-size: 16px;color: #333;}
+.sli_cont .navgator>div p{margin-left:30px;margin-top:5px;font-size: 14px;}
+.sli_cont .navgator>div p a{color: #666;padding:0 7px;}
+.sli_cont .navgator>div p a:hover{color: red;}
+.sli_cont .navgator>div:nth-child(1)>div{background: url(../images/bg11.jpg) no-repeat 10px center;}
+.sli_cont .navgator>div:nth-child(2)>div{background: url(../images/bg12.jpg) no-repeat 10px center;}
+.sli_cont .navgator>div:nth-child(3)>div{background: url(../images/bg13.jpg) no-repeat 10px 2px;}
+.sli_cont .navgator>div:nth-child(4)>div{background: url(../images/bg14.jpg) no-repeat 10px center;}
+
+/*轮播*/
+
+
+/*热门款式推荐*/
+.hot{width:1205px;height:508px;margin:0 auto;}
+.hot h6{height:73px;width:208px;margin:0 auto;line-height: 73px;font-size: 18px;color:#666;background: url(../images/titleBg.png) no-repeat center center;text-align: center;}
+.hot div{float: left;}
+.hot div:nth-child(3){width:665px;height:433px;margin:0 5px;}
+.hot div:nth-child(3) a{display: inline-block;width:327px;height:211px;position: relative;margin-bottom: 10px;}
+.hot div:nth-child(3) img{margin-left:3px;width:97%;height:97%;transition: all 0.35s ease;position: absolute;left:0;top:0;right:0;bottom: 0;margin: auto;}
+.hot div:nth-child(3) a:hover img{width: 90%;height:90%;}
+.hot div:nth-child(2) a,.hot div:nth-child(4) a{display: inline-block;width:258px;height:433px;position: relative;}
+.hot div:nth-child(2) a img,.hot div:nth-child(4) a img{width:97%;height:97%;transition: all 0.35s ease;position: absolute;left:0;top:0;right:0;bottom: 0;margin: auto;}
+.hot div:nth-child(2) a:hover img,.hot div:nth-child(4) a:hover img{width:90%;height: 90%;}
+
+/*鲜花展示*/
+.flowershow{width:1205px;margin:0 auto;overflow: hidden;}
+.flowershow h6{height:73px;width:208px;margin:0 auto;line-height: 73px;font-size: 18px;color:#666;background: url(../images/showBg.jpg) no-repeat center center;text-align: center;font-weight: bold;}
+.flowershow .show{width:100%;display: flex;flex-wrap:wrap;justify-content: space-between;position: relative;top:-2000px;}
+.flowershow .show dl{width:285px;height:317px;border: 1px solid #ccc;padding:10px;margin-bottom: 10px;}
+.flowershow .show dl dt{position: relative;width:100%;height:265px;}
+.flowershow .show dl dt img{position: absolute;left:0;top:0;right: 0;bottom: 0;margin: auto;transition: all 0.35s ease;width:100%;height:100%;}
+.flowershow .show dl dt:hover img{width:90%;height:90%;}
+.flowershow .show dl dd{height:40px;text-align: center;line-height: 40px;font-size: 14px;color: #777;}
+/*鲜花果篮*/
+.basket{width:1205px;margin: 0 auto;height:373px;overflow: hidden;}
+.basket >p{width:100%;height:80px;padding-left:10px;}
+.basket >p b{display:inline-block;height:80px;width:200px;font-size: 18px;font-weight: bolder;line-height:100px;float: left;}
+.basket >p a{display: inline-block;width:85px;height:35px;float: right;border: 1px solid #ccc;text-align: center;line-height: 35px;margin-top:30px;}
+.basket .box {width:100%;height:290px;position: relative;}
+.basket_show{height:290px;position: absolute;left:0;}
+.basket_show dl{margin-right:7px;}
+.basket_show dl{width:294px;height:100%;border:1px solid #ccc;float: left;}
+.basket_show dl dt{width:100%;height:200px;position: relative;}
+.basket_show dl dt img{position: absolute;left: 0;right: 0;top:0;bottom: 0;margin: auto;width:200px;height:200px;transition: all 0.35s ease;}
+.basket_show dl dt:hover img{width:180px;height:180px;}
+.basket_show dl dd{margin-top:15px;}
+.basket_show dl dd p:nth-child(1){font-size: 16px;color: red;padding-left:20px;margin-bottom: 8px;}
+.basket_show dl dd p:nth-child(2){font-size: 16px;color: #666;padding-left: 20px;margin-bottom: 10px;}
+.slick-slide{width:294px;}
+
+
+/*开业花篮*/
+.opening{width:1205px;margin: 0 auto;}
+.opening .top{height:112px;padding-top:25px;width:100%;text-align: center;}
+.opening .top h6{font-size: 23px;line-height: 40px;background: url(../images/h6bg.jpg) no-repeat bottom center;}
+.opening .top p{font-size: 16px;}
+.opening .box {height:300px;position: relative;overflow: hidden;}
+.opening_show{height:300px;position: absolute;left:0;}
+.opening_show dl{width:284px !important;height:100% !important;position: relative;float: left;margin-right: 18px;}
+.opening_show dl dt{width:100%;height:300px;position: relative;}
+.opening_show dl dt img{width:100%;height:100%;}
+.opening_show dl dd{transition: all 1s ease;cursor:pointer;width:100%;height:30px;background: rgba(0,0,0,0.5);color: white;position: absolute;left: 0;bottom: 0px;text-align: center;line-height: 30px;display: none;}
+.opening_show dl:hover>dd{display: block;}
